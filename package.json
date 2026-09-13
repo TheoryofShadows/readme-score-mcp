@@ -1,0 +1,46 @@
+{
+  "name": "@mcpx-digital/readme-score",
+  "version": "0.1.0",
+  "description": "MCP server to score README quality (install/usage/license/badges), suggest concrete improvements, and check relative links exist. Local files only.",
+  "type": "module",
+  "bin": {
+    "readme-score-mcp": "./index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test test/*.test.js"
+  },
+  "files": [
+    "index.js",
+    "lib.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "readme",
+    "docs",
+    "quality",
+    "mcpx"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheoryofShadows/readme-score-mcp.git"
+  },
+  "homepage": "https://github.com/TheoryofShadows/readme-score-mcp#readme",
+  "author": "TheoryofShadows",
+  "bugs": {
+    "url": "https://github.com/TheoryofShadows/readme-score-mcp/issues"
+  }
+}
